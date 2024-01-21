@@ -5,7 +5,7 @@
 1. Создайте базу данных **Postgres**
 2. Добавьте данные базы в **appsettings.Development.json**
 3. Сделайте **Update-Database** в PM .net
-4. Запустите ASP.Net приложение (VerstaAPI)
+4. Запустите ASP.Net приложение (VerstaAPI) http, https не делал, чтобы не устанавливать dev сертификаты
 5. Запустите React Фронт (web_app), перед этим не забудьте npm i
 6. React приложение на **3000 порту**, бэк - 5001
 
