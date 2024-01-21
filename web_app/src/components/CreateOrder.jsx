@@ -14,6 +14,7 @@ export function CreateOrderModal({onAdd}){
         if(res.ok){
             // ok
             onAdd(await res.json())
+            setModal(false)
         }
     }
 

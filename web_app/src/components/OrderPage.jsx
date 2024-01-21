@@ -26,7 +26,7 @@ export function OrderPage(){
        
         <MDBCard>
                     <MDBCardBody>
-                        <h4>Номер заказа: {order.id}</h4>
+                        <h4>Номер заказа: {order.userFriendlyId}</h4>
                         <h5>Отправитель</h5>
                         <p>Город: {order.cityFrom}</p>
                         <p>Адрес: {order.addressFrom}</p>
